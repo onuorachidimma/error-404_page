@@ -6,23 +6,60 @@
 
 body{
     background-color: #fcefe7;
+    font-family: sans-serif;
 }
 
 main{
     height: 100vh;
-    /* max-height: 100%; */
-    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .container{
     margin: auto;
-    width: 90%;
-    /* height: 100vh; */
+    width: 80%;
     text-align: center;
-    /* background-color: red; */
+    max-width: 600px;
+}
+
+.color{
+    color: #111118;
+}
+.container > h1{
+    font-size: 12rem;
+    font-weight: 900;
+    letter-spacing: -0.6rem;
+    line-height: 14rem;
+}
+
+.container > h2{
+    font-size: 1.9rem;
+    font-weight: 800;
+    letter-spacing: -0.1rem;
+    word-spacing: -0.2rem;
+    margin-top: 0px;
+    line-height: 4rem;
+}
+
+.container > .p1{
+    font-size: 13px;
+}
+
+.container > .p2{
+    background-color: #111118;
+    padding: 1rem;
+    margin: auto;
+    width: 30%;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+a{
+    cursor: pointer;
+    color: #fcefe7;
+    text-decoration: none;
 }
 
