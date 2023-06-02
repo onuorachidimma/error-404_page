@@ -6,7 +6,7 @@
 
 body{
     background-color: #fcefe7;
-    font-family: sans-serif;
+    font-family: 'Switzer', sans-serif;
 }
 
 main{
@@ -27,19 +27,20 @@ main{
     color: #111118;
 }
 .container > h1{
-    font-size: 12rem;
+    font-size: 13.5rem;
     font-weight: 900;
-    letter-spacing: -0.6rem;
+    letter-spacing: -0.5rem;
     line-height: 14rem;
+    font-family: 'Switzer', sans-serif;
 }
 
 .container > h2{
-    font-size: 1.9rem;
+    font-size: 2.1rem;
     font-weight: 800;
-    letter-spacing: -0.1rem;
-    word-spacing: -0.2rem;
-    margin-top: 0px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
     line-height: 4rem;
+    font-family: 'Switzer', sans-serif;
 }
 
 .container > .p1{
@@ -55,6 +56,8 @@ main{
     text-align: center;
     font-size: 15px;
     margin-top: 1rem;
+    font-weight: 600;
+    
 }
 
 a{
